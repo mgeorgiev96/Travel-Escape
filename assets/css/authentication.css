@@ -1,0 +1,55 @@
+body{
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-color: lightgreen;
+}
+
+.container{
+    border: 2px solid black;
+    display: flex;
+    flex-flow: column;
+    justify-content: center ;
+    margin: 5% auto;
+    width: 30%;
+    height: auto;
+}
+
+.login-form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    justify-content: space-around;
+}
+.login-form .form-group{
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+    justify-content: center;
+}
+
+.login-form h2{
+    text-align: center;
+    align-self: center;
+    padding: 5% 0;
+}
+.login-form span{
+    padding: 5% 0;
+}
+.login-form .btn-danger{
+    width: 70%;
+    align-self: center;
+    font-size: 1rem;
+}
+.login-form .form-group input{
+    width: 80%;
+    align-self: center;
+}
+.login-form .btn-primary{
+    margin-bottom: 4%;
+    width: 80px;
+    align-self: center;
+}

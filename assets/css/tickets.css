@@ -1,0 +1,57 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 25px;
+    color: white;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    grid-gap: 1rem;
+    border: 2px solid black;
+    margin: 2% auto;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.flight-ticket{
+    background-color: black;
+}
+.card{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: lightblue;
+}
+
+.card:hover{
+    box-shadow: 0 0 5px lightblue,
+    0 0 10px lightblue,
+    0 0 15px lightblue,
+    0 0 20px lightblue;
+    transition: 200ms;
+    transform: scale(1.02);
+}
+
+.fa-undo-alt{
+    float: right;
+}
+
+.fa-undo-alt:hover{
+    cursor: pointer;
+    color: red;
+    transition: 200ms;
+    transform: scale(0.95);
+}

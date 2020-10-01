@@ -1,0 +1,31 @@
+{
+  "name": "summer_trip",
+  "version": "1.0.0",
+  "description": "TourNest – Tours & Travel Agency HTML5 Template\r -------------------------------------------------\r TourNest is an extraordinary HTML5 responsive website template for Tours and Travel Agency. Our UX designers specially designed it for travel agencies, tourism bureaus and tour operators. It offers a lot of value to you with stunning design and a great & awesome layout. It’s really good looking with bright colors and user engaging with a great user interface.\r TourNest has a special search box function for tour plans, flight booking, and hotel sections. So users will get benefited from tour planning to hotel booking through flight selection.<br>\r <a href=\"https://www.themesine.com/downloads/tournest-tours-travel-agency-html5-template/\" target=\"_blank\">Preview Link</a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Martin Georgiev",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cookie-session": "^1.4.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.10.7",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "stripe": "^8.97.0",
+    "uniqid": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "nodemon": "^2.0.4"
+  }
+}
